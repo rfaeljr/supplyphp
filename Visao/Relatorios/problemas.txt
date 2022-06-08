@@ -1,0 +1,7 @@
+Resolução de problemas com relatórios
+1º - Verificar path do parâmetro SUBREPORT_DIR
+2º - Para outros erros, printar o comando  echo $command.'\n'; no arquivo JasperPHP.php  linha 152
+    abrir o console e ir(cd) até a pasta do jasperstarter executar o comando printado. exemplo:
+    jasperstarter process "C:\xampp\htdocs\nmm\Visao\Relatorios./jasper/notamovimentacao.jasper" 
+    -o "C:\xampp\htdocs\nmm\Visao\Relatorios/gerados/8101/notamovimentacao2016-08-09" 
+    -f pdf -P P_NM_ID="33" -t mysql -u root -H localhost -n dbsupply

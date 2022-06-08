@@ -1,0 +1,135 @@
+/*
+  CSS da Aplicação
+ */
+ 
+ .fundoCinza{
+	 background-color: #C7C7C2;
+ }
+ 
+ .fundoBranco{
+	 background-color: #fff;
+ }
+ 
+ .fundoLogin{
+      background-image: url("../img/fundoLogin.jpg");
+      background-repeat: no-repeat;
+ }
+ 
+ 
+ .logotipo {
+    min-width: 0;
+    height: 62px;
+    float: none;
+    line-height: 14px;
+    display: block;
+    max-width: none;
+    max-height: none;
+    background-size: cover;
+}
+
+.borda{    
+    border:solid 1px; 
+    box-shadow: 3px 3px 3px 2px black;
+    border-radius:0px 20px 0px 20px;
+}
+
+.vertlarge0{
+    margin-top: 5%;
+}
+
+.vertlarge1{
+    margin-top: 10%;
+}
+
+.vertlarge2{
+    margin-top: 15%;
+}
+
+.vertlarge3{
+    margin-top: 20%;
+}
+
+.vertlarge4{
+    margin-top: 30%;
+}
+
+.conteudo{
+    min-height: 740px;
+}
+
+.dov{
+    
+}
+
+.fonteRed{
+    color: #b9151b;
+}
+
+.fonteBlue{
+    color: #0489B1;
+}
+
+.fonte10px{
+    font-size: 10px;
+}
+
+.fonte11px{
+    font-size: 11px;
+}
+
+.fonte12px{
+    font-size: 12px;
+}
+
+.acessoNegado{
+    font-size: 30px;
+    color: #b9151b;
+    font-weight: bolder;
+}
+
+.bordaRow{
+    border: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.bordaRowRed{
+    border: 1px solid red;
+    padding-bottom: 8px;
+}
+
+.barraFerramenta{
+    height: 26px;   
+    margin-top: -18px;
+}
+
+button:hover{
+    border: 1px solid #999;
+}
+
+button[disabled]{
+    background: #999;
+    border: none;
+}
+
+button:focus{
+    background-color: #CEECF5;
+    border: 1px solid #0489B1;
+}
+
+input:focus, textarea:focus{ 
+    background-color: yellow;
+}
+
+input:read-only { 
+    background-color: #999;
+}
+
+.obrigatorio{
+    color: #0456A0;
+    font-weight: bold;
+}
+
+table thead{
+    background-color: #3A3A3A;
+    color: white;
+}

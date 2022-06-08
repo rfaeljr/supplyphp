@@ -1,0 +1,5 @@
+#Proteção ao arquivo de senha do DB
+<files ConnectionProperty.php>
+    order allow,deny
+    deny from all
+</files>
